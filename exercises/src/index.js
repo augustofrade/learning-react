@@ -1,6 +1,6 @@
 import React from "react" // Converts to JS code
 import ReactDOM from "react-dom"
-import DynamicList from "./components/DynamicList"
+import ConditionalComponent from "./components/ConditionalComponent"
 
 const root = document.getElementById('root');
 
@@ -8,7 +8,7 @@ const root = document.getElementById('root');
 function App() {
 	return (
 		<div>
-			<DynamicList />
+			<ConditionalComponent />
     	</div>
   	);
 }
