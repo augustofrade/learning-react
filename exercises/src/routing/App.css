@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.App {
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background: gray;
+	color: #fff;
+}
+
+.nav-links {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+ a, a:visited, a:hover {
+ 	color: #fff;
+ 	text-decoration: none;
+ }
