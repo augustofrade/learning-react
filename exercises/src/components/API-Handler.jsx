@@ -28,17 +28,18 @@ export class APIHandlerClass extends Component {
 }
 
 export function APIHandlerFunction() {
-	const [ data, setData ] = useState([]);
+	const [ data, setData ] = useState("");
 
 	// Makes the function component consume the API only one time by passing [] as a param.
 	useEffect(() => {
-		RepoList()
-		.then(res => { setData(res) })
+		
+		setData("bosta")
+		console.log(data)
 	}, [])
 
 	return (
 		<ul>
-			{data.map(item => <APIItem key={item.id} {...item} />)}
+			{/*{data.map(item => <APIItem key={item.id} {...item} />)}*/}
 		</ul>
 	)
 }
